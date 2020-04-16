@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="root/img/favicon.ico" type="image/x-icon">
+    <title>Weather API</title>
+    <link rel="stylesheet" type="text/css" href="weather.css" />
+    <link rel="stylesheet" type="text/css" href="root/icons/weather-icons-master/css/weather-icons-wind.min.css" />
+    <link rel="stylesheet" type="text/css" href="root/icons/weather-icons-master/css/weather-icons.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/7ccb4bf638.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="weather.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="weatherForm" name="weatherForm" action="" method="GET">
+            
+            <ul id="mainNav">
+                <li class="navLi"><a href="#"><h1>Weather API</h1></a></li>
+                <li class="navLi"><a class="navLink" href="#">test</a></li>
+                <li class="navLi"><a class="navLink" href="#">test</a></li>
+                <li class="navLi"><a class="navLink" href="#">test</a></li>
+                <li class="navLiRight"><a class="btn btn-citySubmit">Submit</a></li>
+                <li class="navLiRight"><input type="text" placeholder="Enter city" id="cityName" /></li>
+            </ul>
+
+            <div class="test"></div>
+
+            <div class="weatherBox">
+                <span class="weatherConditionsLbl">SUNNY</span>
+                <h2>Gloucester</h2>
+                <ul>
+                    <li class="weatherLi">The current temperature is: </li>
+                    <li class="weatherLi">Conditions are: </li>
+                    <li class="weatherLi">Forecast: </li>
+                </ul>
+            </div>
+            <div class="weatherBox"></div>
+            <div class="weatherBox"></div>
+            <div class="weatherBox"></div>
+
+        </form>
+    </div>
+</body>
+</html>
